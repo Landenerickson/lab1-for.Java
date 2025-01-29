@@ -13,7 +13,6 @@ public class Lab1For {
         
         for (int i = 0; i < 5; i++) {
             for (int j = 0; j < 4; j++) {
-                System.out.print(names[j] + " purchased: ");
                 amount[i][j] = scanner.nextInt();
                 PersonTotal[j] += amount[i][j] * itemPrices[i];
                 ItemTotal[i] += amount[i][j] * itemPrices[i];
